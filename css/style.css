@@ -86,14 +86,14 @@ p{
 
 #portofolio{
 	background-color: #42A4AF;
-	font-family: white;
-	
+	font-family: 'Open Sans', sans-serif;
 }
 
 .isi img{
 	height:205px;
 	width:100%;
-	position: relative;
+	/*position: relative;*/
+
 }
 .isi-body{
 	color: #fff;
