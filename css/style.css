@@ -79,16 +79,20 @@ hr {
 	margin-bottom: -30px;
 	border: 0;
 }
-p{
+#about p{
 	font-size: 15px;
+	margin-top: 75px;
 }
-
 
 #portofolio{
 	background-color: #42A4AF;
 	font-family: 'Open Sans', sans-serif;
+	color: #fff;
 }
-
+#portofolio hr{
+	color: white;
+	background-color:#fff;
+}
 .isi img{
 	height:205px;
 	width:100%;
