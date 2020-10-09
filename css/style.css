@@ -102,3 +102,19 @@ hr {
 .isi-body{
 	color: #fff;
 }
+#portofolio a{
+	margin-top: -5px;
+	margin-left:3px; 
+	margin-bottom: 100px;
+}
+
+#footer {
+	background: #333;
+	/*color: #777;*/
+	padding: 20px 0;
+	text-align: center;
+}
+#footer p {
+	font-size: 13px;
+	margin-top: 10px;
+}
