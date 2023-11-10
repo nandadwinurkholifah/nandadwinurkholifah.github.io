@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nanda Dwi Nurkholifah</title>
+    <!-- Add jquery cdn -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Add glightbox cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+        
+  </head>
+  <body>
+    
+      <nav id="desktop-nav">
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Portofolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo"></div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>        
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/profile.png" class="rounded-circle" alt="avatar1" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Nanda Dwi Nurkholifah</h1>
+          <p class="section__text__p2">
+            <span class="text-slider-items">Backend Developer | UI UX Designer</span>
+            <strong class="text-slider"></strong>
+          </p>
+          <div class="btn-container py-2">
+            <button
+              class="btn btn-outline-dark"
+              onclick="location.href='#'"
+            >
+              Download CV
+            </button>
+            <button type="button" class="btn btn-dark" onclick="location.href='#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container" class="text-social">
+            <img
+              src="./assets/github.png"
+              alt="My Github"
+              class="icon"
+              onclick="location.href='https://github.com/nandadwinurkholifah'"
+            />
+            <img
+            src="./assets/medium.png"
+            alt="medium"
+            class="icon"
+            onclick="location.href='https://medium.com/@bylipproject'"
+            />
+            <img
+            src="./assets/youtube.png"
+            alt="youtube profile"
+            class="icon"
+            onclick="location.href='https://youtube.com/@bylipproject'"
+            />
+            <img
+            src="./assets/instagram.png"
+            alt="instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/bylipproject'"
+            />
+          </div>
+        </div>
+      </section>
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row">
+            <div class="col-6">
+              <div class="artikel">
+                <p>I am a final semester Informatics student who has completed the thesis trial process and has completed the judiciary. Have an interest in and be able to operate a computer, and can communicate well and can work together in a team or independently. Have an interest in building websites and applications.</p>
+              </div>
+                
+            </div>
+            <div class="col-6">
+              <div class="education">
+                <div class="box">
+                  <h5>2019 - Now | UNIVERSITAS ISLAM MAJAPAHIT</h5>
+                  <h6>Informatika</h6>
+                </div>
+                <div class="box">
+                  <h5>2016 - 2019 | SMKN 1 DLANGGU</h5>
+                  <h6>Rekayasa Perangkat Lunak</h6>
+                  
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">About My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="row">
+            <div class="col-6">
+              <h4>Work</h4><br>
+              <div class="education">
+                <div class="box">
+                  <h5>PT. CEMERLANG STATISTIKA INDONESIA</h5>
+                  <h6>Aug - Sep 2023 | Freelance</h6>
+                    <p>Input data into the agricultural census application</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <h4>Internship</h4><br>
+              <div class="education">
+                <div class="box">
+                  <h5>BADAN PUSAT STATISTIK KABUPATEN MOJOKERTO</h5>
+                  <h6>Mar - Apr 2022</h6>
+                    <p>Developing the STIMO application by adding several features and using a dummy API</p>
+                </div>
+                <div class="box">
+                  <h5>PT. QUANTUM LEAP</h5>
+                  <h6>Jan - Jun 2018</h6>
+                  <p>Assist IT supports tasks in compiling user manual books for application websites</p>
+                  <p>Assist frontliners in receiving customer complaints</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <!-- <div class="row">
+          </div> -->
+          <ul class="project-filter">
+            <li class="list project-filter-active" data-filter="all" >All</li>
+            <li class="list" data-filter="web">Web</li>
+            <li class="list" data-filter="app">App</li>
+            <li class="list" data-filter="uiux">UI UX Design</li>
+            <li class="list" data-filter="design">Design</li>
+          </ul>
+          <div class="project-container">
+
+            <!-- project 1 -->
+            <a href="assets/portofolio/stimo.png" class="project-box app" data-glightbox="title: Stimo; description: .custom-company">
+              <img src="assets/portofolio/stimo.png" alt="work">
+            </a>
+            <div class="glightbox-desc custom-company">
+              <p>Aplikasi ini adalah pengembangan dari aplikasi stimo milik BPS, aplikasi ini adalah projeck PKL saya di BPS Kab. Mojokerto Tahun Ajaran 2022. Selengkapnya klik link dibawah ini.</p>
+              <a href="https://github.com/nandadwinurkholifah/stikmoap.git">https://github.com/nandadwinurkholifah/stikmoap.git</a>
+            </div>
+
+            <!-- project 2 -->
+            <a href="assets/portofolio/presensi.png" class="project-box app" data-glightbox="title: Presensi PKL; description: .custom-company">
+              <img src="assets/portofolio/presensi.png" alt="work">
+            </a>
+            <div class="glightbox-desc custom-company">
+              <p>Aplikasi presensi ini merupakan projek Tugas Akhir, dan terdapat 3 pengguna aplikasi ini meliputi Admin, Mahasiswa, dan Pembiimbing. Selengkapnya klik link dibawah ini.</p>
+              <a href="https://github.com/nandadwinurkholifah/presensiPKL.git">https://github.com/nandadwinurkholifah/presensiPKL.git</a>
+            </div>
+            
+            <!-- project 3 -->
+            <a href="assets/portofolio/penjualan.png" class="project-box web" data-glightbox="title: Aplikasi Penjualan; description: .custom-company">
+              <img src="assets/portofolio/penjualan.png" alt="work">
+            </a>
+            <div class="glightbox-desc custom-company">
+              <p>Web Aplikasi ini merupakan dummy project tentang sistem penjualan toko baju. terdapat menu seperti CRUD User, Supplier, Kategori, Produk, Agen, Transaksi Masuk, dan juga Report Penjualan PDF, Excel. Untuk testing API menggunakan Postman. Selengkapnya klik link dibawah ini.</p>
+              <a href="https://github.com/nandadwinurkholifah/PenjualanApp.git">https://github.com/nandadwinurkholifah/PenjualanApp.git</a>
+            </div>
+
+            <!-- project 5 -->
+            <a href="assets/portofolio/ediary.png" class="project-box uiux" data-glightbox="title: E-diary; description: .custom-company">
+              <img src="assets/portofolio/ediary.png" alt="work">
+            </a>
+            <div class="glightbox-desc custom-company">
+              <p>Prototye tentang aplikasi diary, merupakan tugas untuk memenuhi kuliah saya.Selengkapnya klik link dibawah ini.</p>
+              <a href="https://www.figma.com/file/8Kr2sxQdBqJBoZRGl6BxDz/diary?type=design&node-id=0%3A1&mode=design&t=8Tv6SbepcjwQ8unb-1">https://www.figma.com/file/8Kr2sxQdBqJBoZRGl6BxDz/diary?type=design&node-id=0%3A1&mode=design&t=8Tv6SbepcjwQ8unb-1</a>
+            </div>
+
+            <!-- project 6 -->
+            <a href="assets/portofolio/company.png" class="project-box uiux" data-glightbox="title: Landing Page CAi; description: .custom-company">
+              <img src="assets/portofolio/company.png" alt="work">
+            </a>
+            <div class="glightbox-desc custom-company">
+              <p>Landing page tentang company profile (dummy project).Selengkapnya klik link dibawah ini.</p>
+              <a href="https://www.figma.com/file/RuFkkslZ2Vu7Eq53VXf8yi/landing-page-3?type=design&node-id=0%3A1&mode=design&t=5IOToOTlP6OVEFIA-1">https://www.figma.com/file/RuFkkslZ2Vu7Eq53VXf8yi/landing-page-3?type=design&node-id=0%3A1&mode=design&t=5IOToOTlP6OVEFIA-1</a>
+            </div>
+
+            <!-- project 7 -->
+            <a href="assets/portofolio/personal.png" class="project-box uiux" data-glightbox="title: Personal Portofolio; description: .custom-company">
+              <img src="assets/portofolio/personal.png" alt="work">
+            </a>
+            <div class="glightbox-desc custom-company">
+              <p>Landing Page Personal Portofolio</p>
+            </div>
+
+            <!-- project 8 -->
+            <a href="assets/portofolio/news.png" class="project-box uiux" data-glightbox="title: News App; description: .custom-company">
+              <img src="assets/portofolio/news.png" alt="work">
+            </a>
+            <div class="glightbox-desc custom-company">
+              <p>Ini adalah hasil explorasi saya tentang UIUX</p>
+            </div>
+
+            <!-- project 9 -->
+            <a href="assets/portofolio/music.png" class="project-box uiux" data-glightbox="title: Music App; description: .custom-company">
+              <img src="assets/portofolio/music.png" alt="work">
+            </a>
+            <div class="glightbox-desc custom-company">
+              <p>Ini adalah hasil explorasi saya tentang UIUX</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="quote">
+      <div class="text">
+        Tiada daya dan upaya kecuali dengan kekuatan Allah yang maha tinggi lagi maha agung.
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:bylipproject@gmail.com">nan.dnurkholifah@gmail.com</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>&#169; Copyright 2023 Nanda Dwi Nurkholifah</p>
+    </footer>  
+
+    <script src="js/script.js"></script> 
+  </body>
+</html>
