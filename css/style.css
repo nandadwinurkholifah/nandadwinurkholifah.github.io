@@ -3,9 +3,6 @@
   margin: 0;
   padding: 0;
 }
-.header{
-  background-color: darkgray;
-}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -19,8 +16,6 @@ html {
 p {
   color: rgb(85, 85, 85);
 }
-
-
 
 /* TRANSITION */
 
@@ -61,21 +56,12 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
-}
-
-.logo:hover {
-  cursor: default;
-}
-
 /* HAMBURGER MENU */
 
 #hamburger-nav {
   position: relative;
   display: none;
   z-index: 1;
-
 }
 
 .hamburger-menu {
@@ -179,7 +165,6 @@ section {
   height: 80vh;
   margin-left: auto;
   margin-right: auto; 
-  
 }
 
 .section__pic-container {
@@ -230,8 +215,6 @@ section {
   cursor: pointer;
   height: 2rem;
 }
-
-
 
 /* ABOUT SECTION */
 
@@ -319,7 +302,6 @@ section {
 #experience {
   position: relative;
   /* height: auto; */
-  
 }
 
 #experience h4{
@@ -382,20 +364,47 @@ section {
   
 }
 
-.project-box{
+.project-box {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
   width: calc(33% - 40px);
   height: fit-content;
   padding: 5px;
   border: 1px solid #eeee;
   margin: 20px;
-  
 }
 
-.project-box img{
+.project-box img {
   width: 100%;
   height: 100%;
   overflow: hidden;
   border-radius: 5px;
+}
+
+.project-box::before {
+  content: "Details";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(201, 21, 51);
+  font-size: 1.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1; /* Menempatkan teks di depan gambar */
+}
+
+.project-box:hover {
+  transform: scale(1.05);
+}
+
+.project-box:hover img {
+  filter: grayscale(100%);
+}
+
+.project-box:hover::before {
+  opacity: 1;
 }
 
 /* QUOTE SECTION */
