@@ -146,3 +146,37 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  #about .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about .col-6 {
+    order: 2; 
+  }
+
+  #about .arrow {
+    right: 50%; 
+    transform: translateX(50%);
+  }
+
+  #experience .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #experience .col-6 {
+    width: 100%; 
+  }
+
+  #experience .education {
+    margin-top: 1rem; 
+  }
+
+  #experience .arrow {
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+}
