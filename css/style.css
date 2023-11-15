@@ -142,9 +142,8 @@ a:hover {
 
 section {
   position: relative;
-  /* padding-top: 4vh; */
   height: fit-content;
-  margin: 6rem 16rem;
+  margin: 6rem 5rem;
   box-sizing: border-box;
   min-height: fit-content;
 
@@ -228,7 +227,6 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
   margin-top: 2rem;
 }
 
@@ -238,9 +236,7 @@ section {
 
 .arrow {
   position: absolute;
-  right: -5rem;
-  /* bottom: 2.5rem; */
-  
+  right: -1rem;
 }
 
 .section__pic-container p{
@@ -248,7 +244,6 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -258,13 +253,10 @@ section {
 }
 
 .section-container {
-  gap: 4rem;
-  /* height: 80%; */
   height: auto;
 }
 
 .section__pic-container {
-  /* height: 400px; */
   width: 400px;
 }
 .education {
@@ -301,7 +293,6 @@ section {
 
 #experience {
   position: relative;
-  /* height: auto; */
 }
 
 #experience h4{
@@ -324,7 +315,6 @@ section {
 
 #projects {
   position: relative;
-  /* margin: auto auto; */
 }
 
 .project-filter{
@@ -333,7 +323,6 @@ section {
   justify-content: center;
   width: fit-content;
   align-items: center;
-  margin-top: 20px;
   border: 1px solid rgb(237, 237, 237, 0.6);
   flex-wrap: wrap;
   margin: 0 auto;
@@ -361,6 +350,7 @@ section {
   align-items: flex-start;
   flex-wrap: wrap;
   width: auto;
+  margin-top: 2rem;
   
 }
 

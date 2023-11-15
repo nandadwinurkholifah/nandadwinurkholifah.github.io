@@ -147,36 +147,41 @@
 }
 
 @media screen and (max-width: 375px) {
-  #about .about-containers {
-    flex-direction: column;
-    align-items: center;
+  /* Section About */
+  #about {
+    margin-top: 3rem; 
   }
 
-  #about .col-6 {
-    order: 2; 
+  .about-containers {
+    flex-direction: column; 
+    align-items: center; 
   }
 
-  #about .arrow {
-    right: 50%; 
-    transform: translateX(50%);
+  .about-pic {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 1rem; 
   }
 
-  #experience .about-containers {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #experience .col-6 {
+  .details-container {
     width: 100%; 
   }
 
-  #experience .education {
-    margin-top: 1rem; 
+  .section__pic-container p {
+    text-align: center; 
+  }
+  
+  .col-6 p {
+    text-align: center; 
   }
 
-  #experience .arrow {
-    right: 50%;
-    transform: translateX(50%);
+  /* Section Experience */
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
   }
 
+  .experience-sub-title {
+    font-size: 1.25rem; 
+  }
 }
