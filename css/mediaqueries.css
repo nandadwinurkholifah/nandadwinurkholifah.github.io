@@ -146,7 +146,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
   /* Section About */
   #about {
     margin-top: 3rem; 
